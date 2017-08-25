@@ -25,7 +25,8 @@
   <body>
     <div class="container-fluid">
 
-      <h2>Mostrar tabela CSVV</h2>
+      <h2>Nomes do Brasil</h2>
+      <h2>Mostrar tabela CSV</h2>
 
       <p>Essa página tem como objetivo exibir os dados de um arquivo ".CSV"</p>
 
@@ -69,7 +70,7 @@
       }
 
       CsvToHtmlTable.init({
-        csv_path: 'data/exemplo5.csv',
+        csv_path: 'data/nomesbrasil.csv',
         element: 'table-container',
         allow_download: true,
         csv_options: {separator: ',', delimiter: '"'},
